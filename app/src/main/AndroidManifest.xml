@@ -14,6 +14,21 @@
         android:theme="@style/Theme.Learning"
         tools:targetApi="31">
         <activity
+            android:name=".TouchInputMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomViewMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComplexUIMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimationMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

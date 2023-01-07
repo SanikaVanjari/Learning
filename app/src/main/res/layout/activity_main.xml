@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/customViewBT"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Custom View" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/animationBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animation" />
+
+    <Button
+        android:id="@+id/complexUIBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complex UI" />
+
+    <Button
+        android:id="@+id/navigationBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation" />
+
+    <Button
+        android:id="@+id/touchNInputBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Touch and Input" />
+</androidx.appcompat.widget.LinearLayoutCompat>
